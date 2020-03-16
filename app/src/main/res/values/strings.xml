@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QubeoticSamples</string>
+
+
+    <string name="dollor_symbol">\u0024</string>
+    <string name="euro_symbol">\u20AC</string>
+    <string name="pound_symbol">\u00A3</string>
+    <string name="yen_symbol">\u00A5</string>
+    <string name="cent_symbol">\u00A2</string>
+    <string name="rupee_symbol">\u20B9</string>
+</resources>

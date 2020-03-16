@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_10"
+    tools:context=".UnodoceStringActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/form_add_TL"
+        style="@style/EditTextBorderStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:hint="Weight"
+        app:hintTextAppearance="@style/TextAppearence.TextInputLayout.white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_add_EDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:padding="@dimen/edittext_padding"
+            android:singleLine="true"
+            android:textSize="@dimen/edittext_text_size" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

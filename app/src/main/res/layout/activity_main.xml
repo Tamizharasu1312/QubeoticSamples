@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UnodoceStringActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Styled' SwitchCompat" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_item"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:longClickable="false"
+            android:textOff="OFF"
+            android:textOn="ON"
+            app:showText="true"
+            app:switchTextAppearance="@style/BrandedSwitch.text"
+            app:theme="@style/BrandedSwitch.control" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Themed SwitchCompat" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:longClickable="false" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Themed Switch" />
+
+        <Switch
+            android:id="@+id/switch_item3"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:longClickable="false"
+            android:textOff="OFF"
+            android:textOn="ON" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Styled' Switch" />
+
+        <Switch
+            android:id="@+id/switch_item4"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:longClickable="false"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:theme="@style/BrandedSwitch" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        tools:context="com.kunai.switchtest.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Styled' CheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:longClickable="false"
+            android:theme="@style/BrandedCheckBox" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Themed CheckBox" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:longClickable="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>
